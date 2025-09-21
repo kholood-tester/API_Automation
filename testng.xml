@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Demo API Suite" verbose="1" parallel="false">
+
+    <listeners>
+        <listener class-name="utils.ExtentTestNGListener"/>
+    </listeners>
+
+    <test name="CRUD User Flow">
+        <classes>
+            <class name="tests.demo_newUserFlow"/>
+        </classes>
+    </test>
+</suite>
