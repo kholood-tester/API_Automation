@@ -31,7 +31,7 @@ It covers **CRUD operations** (Create, Update, Delete, Get) with reporting.
 
 ---
 
-## ▶️ How to Run Tests
+## How to Run Tests
 ### From IDE
 - Right-click on `testng.xml` → **Run**
 
