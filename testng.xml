@@ -9,7 +9,10 @@
 
     <test name="CRUD User Flow">
         <classes>
-            <class name="tests.demo_newUserFlow"/>
+            <class name="tests.createUser"/>
+            <class name="tests.updateUser"/>
+            <class name="tests.deleteUser"/>
+            <class name="tests.getUser"/>
         </classes>
     </test>
 </suite>

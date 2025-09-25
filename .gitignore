@@ -1,0 +1,12 @@
+# IDE
+.idea/
+*.iml
+
+# Build & reports
+target/
+test-output/
+
+# Logs / OS junk
+*.log
+.DS_Store
+Thumbs.db
